@@ -56,14 +56,22 @@ from itertools import count
 #      print(f'- {i}')
 
 
-#Scores for 5 student
-count = 5
-total = 0
-print('Score of 5 students')
-for items in range(count):
-    score = int(input(f'Enter score for student {items + 1}: '))
-    total = total + score
-    average = total / 5
-print(f'Total score is: {total}')
-print(f'Average score is: {average}')
+# #Scores for 5 student
+# count = 5
+# total = 0
+# print('Score of 5 students')
+# for items in range(count):
+#     score = int(input(f'Enter score for student {items + 1}: '))
+#     total = total + score
+#     average = total / 5
+# print(f'Total score is: {total}')
+# print(f'Average score is: {average}')
+
+
+
+#cube of a number
+# num = int(input('ENTER A NUMBER '))
+# for items in range(num):
+#     print(items * items * items )
+
 
