@@ -56,10 +56,16 @@
 #             print(f'Duplicates found: {nums [i]}  at position {i}, {j}')
 
 #triangle
+# for i in range(5, 0, -1):
+#     output = ''
+#     for j in range( i ):
+#         output += '*'
+#     print(output)
 
-for i in range(5, 0, -1):
+#l
+num = [1, 1, 1, 5]
+for i in num:
     output = ''
-    for j in range( i ):
+    for j in range(i):
         output += '*'
     print(output)
-
